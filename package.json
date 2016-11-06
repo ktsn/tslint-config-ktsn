@@ -8,9 +8,9 @@
     "config"
   ],
   "license": "MIT",
-  "main": "tslint.json",
+  "main": "tslint.js",
   "files": [
-    "tslint.json"
+    "tslint.js"
   ],
   "homepage": "https://github.com/ktsn/tslint-config-ktsn",
   "bugs": "https://github.com/ktsn/tslint-config-ktsn/issues",
