@@ -5,10 +5,12 @@ module.exports = {
     path.join(path.dirname(require.resolve('tslint-eslint-rules')), 'dist/rules')
   ],
   rules: {
+    'adjacent-overload-signatures': true,
     'no-internal-module': true,
     'no-namespace': [true, 'allow-declarations'],
     'no-reference': true,
     'no-var-requires': true,
+    'prefer-for-of': true,
     'typedef-whitespace': [
       true,
       {
@@ -31,13 +33,8 @@ module.exports = {
     'no-duplicate-variable': true,
     'no-empty': true,
     'no-eval': true,
-    'no-unreachable': true,
     'no-unsafe-finally': true,
     'no-unused-expression': true,
-    'no-unused-variable': [
-      true,
-      {'ignore-pattern': '^_'}
-    ],
     'no-var-keyword': true,
     'switch-default': true,
     'triple-equals': [
