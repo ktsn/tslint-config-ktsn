@@ -7,7 +7,6 @@ module.exports = {
   rules: {
     'adjacent-overload-signatures': true,
     'no-internal-module': true,
-    'no-namespace': [true, 'allow-declarations'],
     'no-reference': true,
     'no-var-requires': true,
     'prefer-for-of': true,
