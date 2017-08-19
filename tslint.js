@@ -102,6 +102,8 @@ module.exports = {
     'block-spacing': [
       true,
       'always'
-    ]
+    ],
+    curly: [true, 'ignore-same-line'],
+    indent: [true, 'spaces', 2]
   }
 }
